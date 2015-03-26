@@ -30,6 +30,9 @@ puzzle-en: common-en
 pinball-en: common-en
 	$(SOY_COMPILER) --outputPathFormat appengine/pinball/generated/en/soy.js --srcs appengine/pinball/template.soy
 	python build-app.py pinball en
+blabla-en: common-en
+	$(SOY_COMPILER) --outputPathFormat appengine/blabla/generated/en/soy.js --srcs appengine/blabla/template.soy
+	python build-app.py blabla en
 
 maze-en: common-en
 	$(SOY_COMPILER) --outputPathFormat appengine/maze/generated/en/soy.js --srcs appengine/maze/template.soy
